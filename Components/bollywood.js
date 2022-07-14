@@ -6,7 +6,7 @@ const get = (req,res)=>{
         "image":"https://images.indianexpress.com/2022/07/Sri-lanka-featured-3.jpg",
     },
 
-    {   "name": "Hariharan2",
+    {   "name" : "Hariharan2",
         "title":"Euro falls below dollar parity for first time since 2002",
         "image":"https://images.indianexpress.com/2022/07/euro-dollar-reuters-currency-1200.jpeg",
     },
