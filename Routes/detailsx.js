@@ -6,4 +6,4 @@
  detailsxRouter1.route("/details")
  .get(detailController.apiController)
 
- module.exports = detailsxRouter1;
+ module.exports = detailsxRouter1
