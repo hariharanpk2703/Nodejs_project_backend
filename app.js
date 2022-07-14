@@ -5,6 +5,7 @@ const cors = require('cors')
 const app = express();
 
 app.use(cors())
+app.use("/",(req,res)=>{res.send("function is running")})
 app.use("/api",detailsxRouter1)
 app.use("/api",detailsxRouter2)
 
