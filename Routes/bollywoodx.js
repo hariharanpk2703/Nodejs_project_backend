@@ -2,8 +2,8 @@ const express= require('express')
 
 const detailController = require('../Components/bollywood')
 
-const detailsxRouter = express.Router()
+const detailsxRouter2 = express.Router()
 detailsxRouter.route("/bollywood")
 .get(detailController.apiController)
 
-module.exports = detailsxRouter;
+module.exports = detailsxRouter2;

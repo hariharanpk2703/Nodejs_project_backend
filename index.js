@@ -10,7 +10,6 @@ app.use("/api",detailsxRouter1)
 app.use("/api",detailsxRouter2)
 
 
-
 app.listen(process.env.PORT||8000,()=>{
     console.log("app is running prefectly");
 });
