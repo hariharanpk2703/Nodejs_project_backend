@@ -2,7 +2,7 @@ const express = require('express')
 const detailsxRouter1= require('./Routes/detailsx')
 const detailsxRouter2= require('./Routes/bollywoodx')
 const cors = require('cors')
-const app = express();
+const app = express()
 
 app.use(cors())
 // app.use("/",(req,res)=>{res.send("function is running")})
