@@ -3,7 +3,7 @@
  const detailController = require('../Components/details')
 
  const detailsxRouter1 = express.Router()
- detailsxRouter.route("/details")
+ detailsxRouter1.route("/details")
  .get(detailController.apiController)
 
  module.exports = detailsxRouter1;
